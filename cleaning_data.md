@@ -47,3 +47,18 @@ WHERE city = '(not set)'
 
 DELETE FROM all_sessions
 WHERE country = '(not set)'
+
+-- DROP transactionid from all_sessions due to NULL value
+ALTER TABLE all_sessions
+DROP COLUMN transactionid
+
+-- DROP itemrevenue from all_sessions due to NULL value
+ALTER TABLE all_sessions
+DROP COLUMN itemrevenue
+
+-- Divide unit_price/1000000 as per instructions
+select 
+CAST((unit_price / 1000000.) AS DECIMAL (10,2))
+from analytics
+
+
