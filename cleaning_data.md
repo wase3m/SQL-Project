@@ -68,3 +68,8 @@ ALTER TABLE all_sessions
 ALTER COLUMN totaltransactionrevenue 
 SET DATA TYPE numeric
 USING totaltransactionrevenue::numeric
+
+--Convert Null with 0 for revenue from analytics
+UPDATE analytics
+SET revenue = 0
+WHERE revenue IS NULL
