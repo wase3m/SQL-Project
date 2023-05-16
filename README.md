@@ -1,17 +1,22 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+The goal is to analyse the traffic on an ecommerce website 
 
 ## Process
-### (your step 1)
-### (your step 2)
+1) Create a database
+2) Import the data
+3) Clean the data 
+4) Analyse the data
+5) Answer the questions
 
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
+
+Through this data we found out about the visitors breakdown for a website and revenue recevied from each city and country.
 
 ## Challenges 
-(discuss challenges you faced in the project)
+
+It was difficult to import the data as it was tough to track all the different data types used in the tables. The data imported was inconsistent and a lot of the values were missing. A lot of data was unecessary and insignificant in the process to finding answers required. 
 
 ## Future Goals
-(what would you do if you had more time?)
+I would clean the data more thoroughly and come up with more precise answers
