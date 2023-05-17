@@ -2,9 +2,9 @@ Question 1:
 
 SQL Queries:
 
- Which countries do we get the most visiors from visitors?
+ Which cities do we get the most visiors from visitors?
 SELECT 
-    country,
+    country, city
     COUNT(fullvisitorid) as num_visitor
 FROM all_sessions
 GROUP BY country
@@ -14,11 +14,9 @@ Limit 3
 Answer: 
 
 Top 3 are :
-US
-India 
-Canada
-
-
+Mountain View
+New York
+San Francisco
 
 Question 2: 
 
@@ -73,6 +71,11 @@ Lip balm SPF15
 
 Question 5: 
 
-SQL Queries:
+Most product in stock
+SELECT 
+    sku,
+    name,
+    stocklevel
+FROM products
+ORDER BY stocklevel DESC
 
-Answer:
