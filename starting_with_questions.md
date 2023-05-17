@@ -6,22 +6,22 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 SQL Queries: 
 For countries :
-SELECT
-    als.country,
-    AVG(a.units_sold)::NUMERIC(10,2) AS average_units_sold
-FROM all_sessions AS als
-JOIN analytics AS a USING (visitid)
-GROUP BY als.country
-ORDER BY average_units_sold DESC
+SELECT 
+    Country,
+    SUM(totaltransactionrevenue) AS total
+FROM all_sessions
+GROUP BY country
+ORDER BY total DESC
 LIMIT 100;
 
 For Cities :
-
-
-
-
-Answer:
-
+SELECT 
+    Country,
+    city,
+    SUM(totaltransactionrevenue) AS total
+FROM all_sessions
+GROUP BY country, city
+ORDER BY total DESC
 
 
 
