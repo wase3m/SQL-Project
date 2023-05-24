@@ -71,6 +71,8 @@ Lip balm SPF15
 
 Question 5: 
 
+Which product is most in stock?
+
 Most product in stock
 SELECT 
     sku,
