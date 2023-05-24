@@ -4,12 +4,12 @@
 The goal of this project is to transform, analyse, and understand the ecommerce database in order to gain meaningful insight which will help make an informed decision.
 
 ## Process
->Create ecommerce Database
->Created tables and columns for the ecommerce database
->Load/input values into the database
->Validate the data the data
->Analyze the data.
->Questioning the database to get meaningful insight
+1.Create ecommerce Database
+2.Created tables and columns for the ecommerce database
+3.Load/input values into the database
+4.Validate the data the data
+5.Analyze the data.
+6.Questioning the database to get meaningful insight
 
 ## Results
 
