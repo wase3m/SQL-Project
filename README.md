@@ -5,10 +5,15 @@ The goal of this project is to transform, analyse, and understand the ecommerce 
 
 ## Process
 1.Create ecommerce Database
+
 2.Created tables and columns for the ecommerce database
+
 3.Load/input values into the database
+
 4.Validate the data the data
+
 5.Analyze the data.
+
 6.Questioning the database to get meaningful insight
 
 ## Results
